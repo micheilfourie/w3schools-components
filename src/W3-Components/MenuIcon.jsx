@@ -9,20 +9,15 @@ const MenuIcon = () => {
     }
 
     return (
-
         <div className="flex flex-col justify-start items-center h-full w-full">
-            <h1 className="text-5xl text-[#545455] font-semibold py-20 ">Menu Icon</h1>
             <div className="flex justify-center items-center w-full mt-10">
                 <button onClick={handleToggle}>
-                    <div className={`w-[60px] h-[10px] bg-[#545455] my-[10px] ${open ? 'rotate-45 translate-y-[20px]' : ''} transition-all duration-500 ease-out rounded-lg`}></div>
-                    <div className={`w-[60px] h-[10px] bg-[#545455] my-[10px] ${open ? 'opacity-0' : ''} transition-all duration-500 ease-out rounded-lg`}></div>
-                    <div className={`w-[60px] h-[10px] bg-[#545455] my-[10px] ${open ? '-rotate-45 translate-y-[-20px]' : ''} transition-all duration-500 ease-out rounded-lg`}></div>
+                    <div className={`w-[60px] h-[10px] bg-grey my-[10px] ${open ? 'rotate-45 translate-y-[20px]' : ''} transition-all duration-500 ease-out rounded-lg`}></div>
+                    <div className={`w-[60px] h-[10px] bg-grey my-[10px] ${open ? 'opacity-0' : ''} transition-all duration-500 ease-out rounded-lg`}></div>
+                    <div className={`w-[60px] h-[10px] bg-grey my-[10px] ${open ? '-rotate-45 translate-y-[-20px]' : ''} transition-all duration-500 ease-out rounded-lg`}></div>
                 </button>
             </div>
         </div>
-
-
-
     )
 }
 
