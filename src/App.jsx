@@ -17,8 +17,8 @@ const App = () => {
 
       {!displayComponent ? (
         <div className="flex justify-center items-center pt-10">
-          <FontAwesomeIcon icon={faArrowLeft} className="text-4xl mr-10" />
-          <h1 className="capitalize text-3xl font-bold">Select A Component From The menu</h1>
+          <FontAwesomeIcon icon={faArrowLeft} className="text-4xl text-[#545455] mr-10" />
+          <h1 className="capitalize text-3xl text-[#545455] font-bold">Select A Component From The menu</h1>
         </div>
       ) : (null)}
 

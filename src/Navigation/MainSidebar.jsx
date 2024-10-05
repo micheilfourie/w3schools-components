@@ -2,11 +2,10 @@ import React from 'react'
 import components from '../W3-Components'
 
 const MainSidebar = ({ handleDisplayComponent }) => {
-    console.log(components);
 
     return (
         <nav className='fixed top-0 left-0 w-[220px] h-[100vh] bg-[#d4d4d6] border-r-4 border-[#05AA6C]'>
-            <h1 className='text-xl text-center text-white bg-[#05AA6C] font-semibold p-2'>Menu</h1>
+            <h1 className='text-xl text-center text-white bg-[#05AA6C] font-semibold p-2'>Components</h1>
             {Object.entries(components).map(([key, value]) => {
                 return (
                     <button
