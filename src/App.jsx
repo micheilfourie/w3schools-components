@@ -1,4 +1,3 @@
-import IconBar from "./W3-Components/IconBar"
 import MainSidebar from "./Navigation/MainSidebar"
 import { useState } from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
