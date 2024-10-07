@@ -6,8 +6,9 @@ export const tabContent = {
 };
 
 export const tabColors = {
-    "London": "#F44237",
-    "Paris": "#2197F2",
-    "Tokyo": "#04AB6C",
-    "Oslo": "#FE5622",
+    "Red": "#F44237",
+    "Blue": "#2197F2",
+    "Green": "#04AB6C",
+    "Orange": "#FE5622",
 };
+

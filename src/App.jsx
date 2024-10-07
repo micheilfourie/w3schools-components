@@ -26,7 +26,7 @@ const App = () => {
       <MainSidebar handleDisplayComponent={handleDisplayComponent} />
 
       <h1 className="text-5xl text-grey text-center font-semibold pt-20 ">{componentName}</h1>
-      <div className="h-[80vh]">
+      <div className="flex justify-center items-start h-full w-full">
         {displayComponent}
       </div>
 

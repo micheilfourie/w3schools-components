@@ -8,7 +8,25 @@ const TabHeaders = () => {
 
     useEffect(() => {
         const handleTabColor = (key) => {
-            setActiveColor(tabColors[key])
+
+            let color;
+
+            switch (key) {
+                case "London":
+                    color = tabColors.Red;
+                    break;
+                case "Paris":
+                    color = tabColors.Blue;
+                    break;
+                case "Tokyo":
+                    color = tabColors.Green;
+                    break;
+                case "Oslo":
+                    color = tabColors.Orange;
+                    break;
+            }
+
+            setActiveColor(color)
         }
         handleTabColor(activeTab)
     }, [activeTab])
